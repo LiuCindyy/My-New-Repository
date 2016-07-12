@@ -39,7 +39,7 @@ public class SessionInfoServlet extends HttpServlet {
 		out.println("What's the session Id of this session "+request.getRequestedSessionId()+"<br>");
 		out.println("is this session from cookies? "+request.isRequestedSessionIdFromCookie()+"<br>");
 		out.println("what's the session Id from URL? "+request.isRequestedSessionIdFromURL()+"<br>");
-		out.println("what's the session Id valid "+request.isRequestedSessionIdValid()+"<br>");
+		out.println("what is the session Id valid "+request.isRequestedSessionIdValid()+"<br>");
 		
 		
 		
